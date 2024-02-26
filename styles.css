@@ -1,7 +1,7 @@
 
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: monospace;
   background-color: #795548; 
   color: #fff; 
   margin: 0;
@@ -57,6 +57,22 @@ body {
   box-shadow: 0 0 20px rgba(121, 85, 72, 0.5); 
 }
 
+.reflection-box img {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+@font-face {
+  font-family: 'YourCustomFont'; /* Name your custom font */
+  src: url('fonts/your-custom-font.woff2') format('woff2'), /* Path to the font file */
+       url('fonts/your-custom-font.woff') format('woff'); /* Fallback for older browsers */
+  /* Add more src declarations if you have different font file formats */
+  font-weight: normal; /* Font weight */
+  font-style: normal; /* Font style */
+}
 
 
 
