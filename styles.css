@@ -1,9 +1,7 @@
-
-
 body {
-  font-family: monospace;
-  background-color: #795548; 
-  color: #fff; 
+  font-family: 'monospace', sans-serif;
+  background-color: #ffcc99; 
+  color: #330033; 
   margin: 0;
   padding: 0;
 }
@@ -14,20 +12,20 @@ body {
 }
 
 .content h1 {
-  font-size: 48px; 
-  color: #D81B60; 
+  font-size: 48px;
+  color: #ff66cc; 
   font-weight: bold;
 }
 
 .content p {
-  font-size: 20px; 
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
 .content a {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #D81B60; 
+  background-color: #ff66cc; 
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -36,7 +34,7 @@ body {
 }
 
 .content a:hover {
-  background-color: #F06292; 
+  background-color: #ff3399; 
 }
 
 .container {
@@ -47,32 +45,159 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
   gap: 20px;
 }
 
 .grid img {
   width: 100%;
+  height: 100%;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(121, 85, 72, 0.5); 
+  box-shadow: 0 0 20px rgba(255, 204, 153, 0.5); 
+  object-fit: cover;
 }
+
 
 .reflection-box img {
   width: 100%; 
-  height: 200px; 
+  height: auto; 
   object-fit: cover; 
-  border-radius: 10px;
-  margin-bottom: 10px;
+  border-radius: 10px; 
+  margin-bottom: 10px; 
+}
+@font-face {
+  font-family: 'cowboy_hippie_pro'; 
+  src: url('fonts/cowboy_hippie_pro-webfont.woff2') format('woff2'), 
+       url('fonts/cowboy_hippie_pro-webfont.woff') format('woff');
 }
 
-@font-face {
-  font-family: 'YourCustomFont'; /* Name your custom font */
-  src: url('fonts/your-custom-font.woff2') format('woff2'), /* Path to the font file */
-       url('fonts/your-custom-font.woff') format('woff'); /* Fallback for older browsers */
-  /* Add more src declarations if you have different font file formats */
-  font-weight: normal; /* Font weight */
-  font-style: normal; /* Font style */
+h1 {
+  font-family: 'cowboy_hippie_pro', sans-serif; 
 }
+
+
+
+
+
+
+
+
+body {
+  font-family: 'monospace', sans-serif;
+  background-color: #ff99cc;
+  color: #330033; 
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #330033; 
+}
+
+section {
+  padding: 50px;
+  background-color: #ffccff; 
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #330033; 
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+a {
+  color: #330033; 
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+#internet-usage {
+  background-color: #ffccff; 
+}
+
+#screenshots {
+  background-color: #ff99cc; 
+}
+
+#handmade-web-reflection {
+  background-color: #ffffcc; 
+}
+
+#future-emotions {
+  background-color: #ffcc99;
+}
+
+#touching-grass {
+  background-color: #ccffcc; 
+}
+
+
+
+#reflection-boxes {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.reflection-box {
+  display: inline-block;
+  width: 30%; 
+  margin: 20px;
+  border: 1px solid #330033; 
+  overflow: hidden; 
+}
+
+.reflection-box img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  padding: 10px;
+  background-color: #330033; 
+  color: #fff;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.gif-container {
+  width: 45%;
+  margin: 10px;
+}
+
+.gif-container img {
+  width: 100%;
+  height: auto;
+}
+
+
 
 
 
